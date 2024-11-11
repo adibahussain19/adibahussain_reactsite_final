@@ -1,0 +1,115 @@
+.title-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+  
+.title-image {
+    width: 447px;
+    height: 494px;
+    flex-shrink: 0;
+    border-radius: 115px;
+    background: 50% / cover no-repeat;
+}
+  
+.title-content {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  color: #403930;
+  gap: 25px;
+}
+
+.title-content h1 {
+  color: #403930;
+  font-family: "Eczar", serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 1.28px;
+}
+
+.title-content p{
+  color: #403930;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  border-radius: 10px;
+  background: #FFDDBF;
+  padding: 2%;
+}
+
+.btn-container {
+    display: flex;      
+    gap: 10px;               
+    justify-content: start;
+}
+
+
+#view-button{
+    color: #F3F2FF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    display: flex;
+    width: 270px;
+    padding: 24px 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    background: #4E5E80;
+  }
+  
+  #resume-download{
+    display: flex;
+    width: 269px;
+    padding: 24px 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    /* border: 4px;  */
+    border-color: #4D5566;
+    color: #4D5566;
+    font-family: "Work Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    background: transparent;
+  }
+
+
+/* from https://codepen.io/jakejarvis/pen/pBZWZw */
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  

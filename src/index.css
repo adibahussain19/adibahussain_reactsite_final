@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: "Work Sans", sans-serif !important;
+  background-color: #FFEED9 !important;
+}
+
+section{
+  width: 1266px;
+  height: 700px;
+  padding-bottom: 5%;
+  padding-top: 80px;
+}
+
+#body{
+  padding: 30px 79px;
+}
+
+.section-heading {
+  color: #403930 !important;
+  font-family: Eczar;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0.8px;
+}
+
+p {
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 500;
 }

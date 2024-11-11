@@ -1,0 +1,36 @@
+#navbar-edit {
+    font-weight: 500;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #navbar-edit a {
+    color: #594F43;
+  }
+  
+  .navbar {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-scrolled {
+    background-color: #4E5E80;
+  }
+  
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .nav-link:hover,
+  .navbar-scrolled .nav-link:focus {
+    color: #FFDDBF !important; 
+  }
+  
+  .navbar .nav-link{
+    transition: color 0.3s ease;
+  }
