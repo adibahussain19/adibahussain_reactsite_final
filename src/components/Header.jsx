@@ -38,7 +38,7 @@ export default function Header(){
                     
                 </div>
             
-                <img className="title-image" src={animatedImg} alt="Animated Picture of Adiba Hussain" />
+                <img className="title-image" src={animatedImg} alt="Adiba Hussain" />
             
         </header>
     );

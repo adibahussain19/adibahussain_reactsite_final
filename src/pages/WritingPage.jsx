@@ -3,7 +3,6 @@ import useFetchWriting from '../hooks/useFetchWriting';
 
 export default function WritingPage() {
     const { writings, loading, error } = useFetchWriting();
-    console.log("writings", writings);
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error: {error.message}</p>;
 

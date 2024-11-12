@@ -6,7 +6,7 @@ export default function About() {
     <section id="about">
 
         <div className="about-div">
-            <div id="img-div"><img className="title-image" src={headshotImg} alt="A Picture of Adiba Hussain" /></div>
+            <div id="img-div"><img className="title-image" src={headshotImg} alt="Adiba Hussain" /></div>
             
             <div className="about-content-container">
                 <h1 className="section-heading"> A Little Bit About Me </h1>
